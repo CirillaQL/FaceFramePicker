@@ -1,0 +1,10 @@
+[project]
+name = "faceframepicker"
+version = "0.1.0"
+description = "Extract one frame per second from a video with OpenCV."
+requires-python = ">=3.10"
+dependencies = [
+    "opencv-python>=4.13.0.92",
+    "retina-face>=0.0.17",
+    "tf-keras>=2.21.0",
+]
